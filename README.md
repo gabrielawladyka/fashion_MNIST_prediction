@@ -10,7 +10,8 @@ To obtain the best results, several models were built based on:
 ## The data set 
 The dataset - Fashion MNIST - used in this project comes from the fashion retailer Zalando. 
 The fashion MNIST dataset consists of two parts - the first one is training part containing 60 000 samples, and the second one is a testing part containing 10 000 samples. 
-Each sample is a black and white image with dimensions of 28 x 28 pixels, belonging to one of the 10 classes. 
+Each sample is a black and white image with dimensions of 28 x 28 pixels, belonging to one of the 10 classes.
+
 The classes included in the dataset are: 
 - T-shirt/top, 
 - Trousers, 
@@ -23,6 +24,11 @@ The classes included in the dataset are:
 - Bag, 
 - Ankle Boots.
 
+The sample of the data set is visualized below:
+
+![Data Sample](data_visualization/data_sample.png "Data Sample")
+
+
 ## Results
 
 The model that achieved the greatest effectiveness is the Convolutional Neural Network Model with an added dropout layer. 
@@ -30,3 +36,5 @@ This model has an accuracy of 86.7%.
 
 ![Convolutional Network Model with Dropout Accuracy](data_visualization/conv_net_acc.png "Convolutional Network Model with Dropout Accuracy")
 The model with the least effectiveness turned out to be the Logistic Regression Model, which achieved an R^2 value of 78.87% for training data and 75.83% for validation data.
+
+![Logistic Regression Model](data_visualization/logistic_regression.png "Logistic Regression Model")
