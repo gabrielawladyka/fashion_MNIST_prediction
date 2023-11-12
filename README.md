@@ -35,6 +35,6 @@ The model that achieved the greatest effectiveness is the Convolutional Neural N
 This model has an accuracy of 86.7%.
 
 ![Convolutional Network Model with Dropout Accuracy](data_visualization/conv_net_acc.png "Convolutional Network Model with Dropout Accuracy")
-The model with the least effectiveness turned out to be the Logistic Regression Model, which achieved an R^2 value of 78.87% for training data and 75.83% for validation data.
+The model with the least effectiveness turned out to be the Logistic Regression Model, which achieved an R<sup>2</sup> value of 78.87% for training data and 75.83% for validation data.
 
 ![Logistic Regression Model](data_visualization/logistic_regression.png "Logistic Regression Model")
